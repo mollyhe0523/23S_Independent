@@ -1,0 +1,212 @@
+Unity Editor version:    2021.3.4f1 (cb45f9cae8b7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/2021.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2203
+-projectPath
+/Users/heweiyi/Documents/GitHub/23S_independent_research/My project
+-logFile
+Logs/AssetImportWorker2203.log
+-srvPort
+49245
+Successfully changed project path to: /Users/heweiyi/Documents/GitHub/23S_independent_research/My project
+/Users/heweiyi/Documents/GitHub/23S_independent_research/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+     74981 206ecd2c0 -
+     74986 20a7612c0 -
+     74996 208e0b2c0 -
+     75000 2084342c0 -
+     75006 208c602c0 -
+     75029 20ad4e2c0 -
+     75039 20885f2c0 -
+     75064 20a6ad2c0 -
+     75069 20a8832c0 -
+     75080 2085c72c0 -
+     75089 206ec22c0 -
+     75099 2089292c0 -
+     75111 20aff72c0 -
+     75117 2072ee2c0 -
+     75122 20a9622c0 -
+     75127 208ca52c0 -
+     75132 206acf2c0 -
+     75157 20883d2c0 -
+     75166 2085392c0 -
+     75181 206a282c0 -
+     75196 206f2b2c0 -
+     75201 2066fa2c0 -
+     75237 20a4482c0 -
+     75252 20a5b12c0 -
+     75265 2089c02c0 -
+     75270 20ad552c0 -
+     75281 206bf92c0 -
+     75295 20a6962c0 -
+     75300 20699e2c0 -
+     75307 20a5c62c0 -
+     75311 20a4f92c0 -
+     75317 20a4b92c0 -
+     75411 2083d02c0 -
+     75418 2086ef2c0 -
+     75423 20ae222c0 -
+     75430 206b742c0 -
+     75434 20b0eb2c0 -
+     75454 206a5f2c0 -
+     75460 20a60d2c0 -
+     75471 206c6b2c0 -
+     75477 2070202c0 -
+     75482 208de82c0 -
+     75492 208b2d2c0 -
+     75497 2070442c0 -
+     75504 20920d2c0 -
+     75508 2073442c0 -
+     75513 208f7f2c0 -
+     75522 208c472c0 -
+     75528 20a9f02c0 -
+     75533 208e592c0 -
+     75538 2065222c0 -
+     75543 2062f32c0 -
+     75555 2069182c0 -
+     75560 2064272c0 -
+     75565 20a86e2c0 -
+     75569 206b462c0 -
+     75574 2082e02c0 -
+     75581 20852c2c0 -
+     75586 2086362c0 -
+     75592 2087dc2c0 -
+     75598 2084672c0 -
+     75619 20b21b2c0 -
+     75655 2091122c0 -
+     75658 2064182c0 -
+     75703 206f4b2c0 -
+     75713 2062a22c0 -
+     75715 20675b2c0 -
+     75736 20a6622c0 -
+     75734 2068bc2c0 -
+     75738 208b692c0 -
+     75798 2070ff2c0 -
+     75807 20857a2c0 -
+     75811 20a81f2c0 -
+     75823 20a6bf2c0 -
+     75837 206b302c0 -
+     75842 208c292c0 -
+     75848 206a852c0 -
+     75871 2087ce2c0 -
+     75882 2068d12c0 -
+     75900 2091e32c0 -
+     75919 20a6742c0 -
+     75913 2063502c0 -
+     75937 20b18f2c0 -
+     75955 2064812c0 -
+     75966 208f3a2c0 -
+     75973 20b4092c0 -
+     75987 208a112c0 -
+     75993 2066672c0 -
+     75996 208b992c0 -
+     76031 206ee22c0 -
+     76047 20a4492c0 -
+     76053 20b0752c0 -
+     76055 20924b2c0 -
+     76070 206e322c0 -
+     76072 20a6372c0 -
+     76092 206b072c0 -
+     76113 20716e2c0 -
+     76115 208c312c0 -
+     76128 208bc82c0 -
+     76126 20a79e2c0 -
+     76148 20ae362c0 -
+     76150 20727d2c0 8882
+     76179 2066a32c0 -
+     76177 20acce2c0 -
+     76204 206e1c2c0 -
+     76212 2086b72c0 -
+     76214 2082fb2c0 -
+     76224 208b112c0 -
+     76226 2065922c0 -
+     76228 20854c2c0 -
+     76230 20ae282c0 -
+     76251 20aaa02c0 -
+     76249 20a9092c0 -
+     76253 2084772c0 -
+     76285 2091682c0 -
+     76287 206fc02c0 -
+     76289 20a53a2c0 -
+     76313 20901d2c0 -
+     74959 206f232c0 -
+     76311 206de62c0 -
+     76309 208d962c0 -
+     76349 2070ce2c0 -
+     74967 2091d92c0 -
+     76372 20a76f2c0 -
+     74972 20656f2c0 -
+     74977 20a3f32c0 -
+Cleaned out 122 stale readers
+Refreshing native plugins compatible for Editor in 143.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/2021.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56430
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.4f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003268 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found

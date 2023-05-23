@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:3-52
+12-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-49
+13    <uses-feature
+13-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:17-63
+15        android:required="false" />
+15-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:3-65
+17-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:20-62
+18
+19    <uses-feature
+19-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:17-60
+21        android:required="false" />
+21-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:61-85
+22    <uses-feature
+22-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-71
+24        android:required="false" />
+24-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:72-96
+25    <uses-feature
+25-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-80
+27        android:required="false" />
+27-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:81-105
+28    <uses-feature
+28-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-111
+29        android:name="android.hardware.vr.headtracking"
+29-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-64
+30        android:required="true"
+30-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:65-88
+31        android:version="1" />
+31-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:89-108
+32
+33    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+33-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-73
+33-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:20-70
+34
+35    <uses-feature
+35-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-88
+36        android:name="oculus.software.handtracking"
+36-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-60
+37        android:required="false" />
+37-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:61-85
+38
+39    <application android:extractNativeLibs="true" >
+39-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-20:17
+39-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+40        <activity
+40-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-13:16
+41            android:name="com.unity3d.player.UnityPlayerActivity"
+41-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+42            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+42-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:182-363
+43            android:hardwareAccelerated="false"
+43-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:399-434
+44            android:launchMode="singleTask"
+44-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:150-181
+45            android:resizeableActivity="false"
+45-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:364-398
+46            android:screenOrientation="fullSensor"
+46-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-149
+47            android:theme="@style/UnityThemeSelector" >
+47-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+48            <intent-filter>
+48-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+49-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+51-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+52                <category android:name="com.oculus.intent.category.VR" />
+52-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+52-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+53            </intent-filter>
+54
+55            <meta-data
+55-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+56                android:name="unityplayer.UnityActivity"
+56-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+57                android:value="true" />
+57-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+58            <meta-data
+58-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+59                android:name="android.notch_support"
+59-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+60                android:value="true" />
+60-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+61            <meta-data
+61-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:7-81
+62                android:name="com.oculus.vr.focusaware"
+62-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:18-57
+63                android:value="true" />
+63-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:58-78
+64        </activity>
+65
+66        <meta-data
+66-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+67            android:name="unity.splash-mode"
+67-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+68            android:value="0" />
+68-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+69        <meta-data
+69-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+70            android:name="unity.splash-enable"
+70-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+71            android:value="True" />
+71-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+72        <meta-data
+72-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+73            android:name="unity.launch-fullscreen"
+73-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+74            android:value="True" />
+74-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+75        <meta-data
+75-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+76            android:name="unity.allow-resizable-window"
+76-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-59
+77            android:value="False" />
+77-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:60-81
+78        <meta-data
+78-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-81
+79            android:name="notch.config"
+79-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-43
+80            android:value="portrait|landscape" />
+80-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:44-78
+81        <meta-data
+81-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-98
+82            android:name="com.oculus.supportedDevices"
+82-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-58
+83            android:value="quest|quest2|cambria" />
+83-->/Users/heweiyi/Documents/GitHub/23S_independent_research/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:59-95
+84    </application>
+85
+86</manifest>

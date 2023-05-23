@@ -1,0 +1,76 @@
+{
+    "name": "My input action",
+    "maps": [
+        {
+            "name": "Panel Interaction",
+            "id": "097d078b-8151-4913-9817-9d2035cf711b",
+            "actions": [
+                {
+                    "name": "OpenButtonMenu",
+                    "type": "Button",
+                    "id": "76b143ef-b012-4ed4-a97b-06d609a4f81b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScalePanel",
+                    "type": "Button",
+                    "id": "e0e271f3-9aae-4b1b-a151-beca9c9094fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6742b00f-d890-4df6-9690-1e787064eaf4",
+                    "path": "<MetaAimHand>/indexPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenButtonMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "df280189-68bf-4d65-9824-99d045f45df0",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScalePanel",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "9bd3bdbb-4ded-48c8-96b6-72308e14bd10",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScalePanel",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "a029e770-7088-4fd4-bf32-a1c6134a3464",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScalePanel",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
